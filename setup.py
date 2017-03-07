@@ -19,28 +19,28 @@ test_requirements = [
 ]
 
 setup(
-    name='meta_ultra_api',
+    name='metagenscope_api',
     version='0.1.0',
-    description="A python API for MetaUltra",
+    description="A python API for MetaGenScope",
     long_description=readme + '\n\n' + history,
     author="David C. Danko",
     author_email='dcd3001@med.cornell.edu',
     url='https://github.com/dcdanko/meta_ultra_api',
     packages=[
-        'meta_ultra_api',
+        'metagenscope_api',
     ],
-    package_dir={'meta_ultra_api':
-                 'meta_ultra_api'},
+    package_dir={'metagenscope_api':
+                 'metagenscope_api'},
     entry_points={
         'console_scripts': [
-            'meta_ultra_api=meta_ultra_api.cli:main'
+            'metagenscope_api=metagenscope_api.cli:main'
         ]
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='meta_ultra_api',
+    keywords='metagenscope_api',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
